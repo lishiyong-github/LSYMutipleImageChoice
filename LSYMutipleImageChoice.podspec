@@ -1,6 +1,6 @@
   Pod::Spec.new do |s|  
     s.name = "LSYMutipleImageChoice"
-    s.version = "1.0.0.0"
+    s.version = "1.0.0.2"
     s.summary = "A Library for iOS LSYMutipleImageChoice."
     s.homepage = "https://github.com/lishiyong-github/LSYMutipleImageChoice"
     s.license = "MIT"
