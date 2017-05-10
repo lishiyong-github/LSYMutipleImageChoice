@@ -10,6 +10,7 @@
 #import "ZYQAssetPickerController.h"
 #import <Foundation/NSFileManager.h>
 #import <objc/runtime.h>
+#import "ReactiveCocoa.h"
 @interface UIViewController (_MutipleImageChoice)<ZYQAssetPickerControllerDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 @property (nonatomic, copy) void (^finishBlock)(NSArray *array);
 @end
